@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test-ai/static/css/main.2a026d68.css",
+    "main.css": "/test-ai/static/css/main.b13100f2.css",
     "main.js": "/test-ai/static/js/main.68317fbc.js",
     "static/js/787.7f2e02e1.chunk.js": "/test-ai/static/js/787.7f2e02e1.chunk.js",
     "static/media/beausite-classic-light.ttf": "/test-ai/static/media/beausite-classic-light.66e83cbd4a0f448287fa.ttf",
@@ -8,12 +8,12 @@
     "static/media/open-sans-medium.ttf": "/test-ai/static/media/open-sans-medium.5b0a682fe3717764627e.ttf",
     "static/media/beausite-classic-regular.otf": "/test-ai/static/media/beausite-classic-regular.2d0f11b6cf94981c1906.otf",
     "index.html": "/test-ai/index.html",
-    "main.2a026d68.css.map": "/test-ai/static/css/main.2a026d68.css.map",
+    "main.b13100f2.css.map": "/test-ai/static/css/main.b13100f2.css.map",
     "main.68317fbc.js.map": "/test-ai/static/js/main.68317fbc.js.map",
     "787.7f2e02e1.chunk.js.map": "/test-ai/static/js/787.7f2e02e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a026d68.css",
+    "static/css/main.b13100f2.css",
     "static/js/main.68317fbc.js"
   ]
 }
