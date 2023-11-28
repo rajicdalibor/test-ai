@@ -14,11 +14,13 @@
         font-family: Beausite-regular, sans-serif;
         font-size: 28px;
         font-weight: 600;
+        color: #242424;
     }
 
     .item-text {
         font-size: 22px;
         font-weight: 300;
         line-height: 36px;
+        color: #424242;
     }
 }
