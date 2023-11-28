@@ -1,0 +1,27 @@
+.feature-wrapper {
+    min-width: 270px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.feature-title {
+    font-family: Beausite-regular, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.56px;
+    color: #242424;
+    margin-top: 32px;
+    white-space: pre-line;
+}
+
+.feature-text {
+    max-width: 268px;
+    font-family: Beausite, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 300;
+    margin: 20px 0
+}

@@ -4,6 +4,7 @@ import ContentBox from "./ContentBox";
 import OverviewBox from "./OverviewBox";
 import ContactSection from "./ContactSection";
 import Footer from "./Footer";
+import ChatInABoxSection from "./ChatInABoxSection";
 function ContentSection() {
     return (
         <div id={'ai'} className={"content-wrapper"}>
@@ -91,6 +92,11 @@ function ContentSection() {
                 contentText={["Accelerate customers' reimbursement with our efficient Claims Processing service, ensuring swift and accurate handling of claims."]}
                 image={'claims-processing.svg'}
             />
+                <ContentBox
+                    id={'chatInABox'}
+                    headerData={{title: 'CHAT IN A BOX', subtitle: 'Your Smart Assistant', header: ["Unlock the power of instant, intelligent document retrieval with our cutting-edge ", <span style={{color: "#829CF8", fontWeight: "600"}}>Chat in a Box.</span>, <p>Our chatbot seamlessly integrates with your document library and different data sources, effortlessly retrieving answers to your questions in seconds.</p>]}}
+                    customContent={<ChatInABoxSection/>}
+                />
             <ContentBox
                 contentHeader={'Empowering Intelligence'}
                 contentText={["3ap is your strategic partner for digitalisation. Together with you, we develop meaningful strategies, MVPs or first-class, scalable digital solution. "]}

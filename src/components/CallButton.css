@@ -30,3 +30,7 @@ button {
     text-align: inherit !important;
     appearance: none !important;
 }
+
+.pKviAd {
+    border: 2px solid red;
+}

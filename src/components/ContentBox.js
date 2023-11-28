@@ -2,7 +2,7 @@ import ContentHeader from "./ContentHeader";
 import "./ContentBox.css";
 import {goToLink, imageSrc} from "../services/utils";
 
-function ContentBox({id, headerData, contentHeader, contentText, image, imageFirst, buttonText, contentLink, paddingTopLarge}) {
+function ContentBox({id, headerData, contentHeader, contentText, image, imageFirst, buttonText, contentLink, paddingTopLarge, customContent}) {
     return (
         <section className={`content-box-container ${paddingTopLarge ? 'padding-top-large' : ''}`} id={id}>
             {headerData && <div className={'content-box-header'}><ContentHeader headerData={headerData} /></div> }
@@ -15,7 +15,7 @@ function ContentBox({id, headerData, contentHeader, contentText, image, imageFir
                         {contentHeader}
                     </div>
                     <div>
-                        {contentText.map((text, key) => <span key={key}>{text}</span> )}
+                        {contentText && contentText.map((text, key) => <span key={key}>{text}</span> )}
                     </div>
                     {contentLink &&
                         <div className={'content-link'} onClick={() => goToLink(contentLink)}>
@@ -23,7 +23,8 @@ function ContentBox({id, headerData, contentHeader, contentText, image, imageFir
                             <img src={imageSrc('arrow-right.svg')} alt={'arrow-right'}/>
                         </div>}
                 </div>
-                <img className={'content-image'} src={imageSrc(image)} alt={image}/>
+                {image && <img className={'content-image'} src={imageSrc(image)} alt={image}/>}
+                {customContent}
             </div>
         </section>
     )

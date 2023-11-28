@@ -1,0 +1,24 @@
+.item-wrapper {
+    display: flex;
+    gap: 32px;
+    max-width: 550px;
+    align-items: start;
+
+    .item-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .item-title {
+        font-family: Beausite-regular, sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .item-text {
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 36px;
+    }
+}

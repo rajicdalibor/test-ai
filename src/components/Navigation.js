@@ -8,6 +8,7 @@ const links = [
     {id: 'ai', label: 'AI in a Box®'},
     {id: 'components', label: 'Components'},
     {id: 'services', label: 'Services'},
+    {id: 'chatInABox', label: 'Chat in a Box'},
     {id: 'aboutUs', label: 'About Us'},
 ]
 function Navigation() {
